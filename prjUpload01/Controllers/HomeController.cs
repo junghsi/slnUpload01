@@ -34,7 +34,7 @@ namespace prjUpload01.Controllers
 					await formFile.CopyToAsync(steam);
 				}
             }
-            //回������案列表
+            //回檔案列表
             return View(GetFiles());
         }
     }
